@@ -163,6 +163,6 @@ else:
 
 if st.session_state.history:
     st.write("---")
-    st.write("### 📜 Recent Hero Acts")
+    st.write("### 📜 Recents")
     for entry in st.session_state.history[:3]:
         st.write(entry)
